@@ -1,6 +1,7 @@
-## Problem: Two Sum
+______________________________________________________________________________________________________________________________________________________________________
 
-###### *Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.*
+Problem: Two Sum
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target. You may assume that each input would have exactly one solution, and you may not use the same element twice. You can return the answer in any order.
 
 Example 1:
 Input: nums = [2,7,11,15], target = 9
@@ -21,21 +22,25 @@ Constraints:
 -109 <= target <= 109
 Only one valid answer exists.
 
+______________________________________________________________________________________________________________________________________________________________________
+
 Solution:
 
 class Solution {
     public int[] twoSum(int[] nums, int target) {
         int result[]=new int[2];
-        Map<Integer, Integer> map=new HashMap<>();
+        Map<Integer, Integer> map=new HashMap<>(); //Defining a hashMap
         for(int i=0; i<nums.length; i++){
-            if(map.containsKey(target-nums[i])){
+            if(map.containsKey(target-nums[i]))  //condition of finding the pair for current element
+            {
                 result[1]=i;
                 result[0]=map.get(target-nums[i]);
                 return result;
             }
-            map.put(nums[i],i);
+            map.put(nums[i],i); //adding elements of array in hashMap until difference b/w target & current element becomes equal to an element present in array
         }
         return result;
     }
 }
+______________________________________________________________________________________________________________________________________________________________________
    
