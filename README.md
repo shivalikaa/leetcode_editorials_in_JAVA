@@ -10,3 +10,9 @@ https://leetcode.com/problems/merge-two-sorted-lists/
 
 3. Decrypt String from Alphabet to Integer Mapping: 
 https://leetcode.com/problems/decrypt-string-from-alphabet-to-integer-mapping/
+
+4. Valid Palindrome:
+https://leetcode.com/problems/valid-palindrome/
+
+5. Search Insert Position:
+https://leetcode.com/problems/search-insert-position/
