@@ -16,3 +16,6 @@ https://leetcode.com/problems/valid-palindrome/
 
 5. Search Insert Position:
 https://leetcode.com/problems/search-insert-position/
+
+6. Set Matrix Zeroes
+https://leetcode.com/problems/set-matrix-zeroes/
